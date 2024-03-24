@@ -1,4 +1,4 @@
-# Consumidor de API de Los Simpsons
+# Consumidor de API de Los Simpsons 📺
 
 Este proyecto en Java es un simple consumidor de una API pública de Los Simpsons. Utiliza la API proporcionada por [Simpsons Quote](https://thesimpsonsquoteapi.glitch.me/) para obtener citas aleatorias de personajes de Los Simpsons. 📺🍩
 
