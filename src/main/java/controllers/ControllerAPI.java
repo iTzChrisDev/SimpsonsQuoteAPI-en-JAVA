@@ -3,6 +3,6 @@ package controllers;
 https://mvnrepository.com/artifact/org.json/json/20220320 
 Enlace directo para obtenerlo...*/
 
-public class ApiController {
+public class ControllerAPI {
     
 }
