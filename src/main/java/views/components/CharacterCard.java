@@ -54,7 +54,7 @@ public class CharacterCard extends JPanel {
         try {
             URL url = new URL(imgPath);
             Image image = ImageIO.read(url);
-            lblImg.setIcon(new ImageIcon(image.getScaledInstance(64, 128, Image.SCALE_SMOOTH)));
+            lblImg.setIcon(new ImageIcon(image.getScaledInstance(82, 128, Image.SCALE_SMOOTH)));
         } catch (Exception e) {
             e.printStackTrace();
         }

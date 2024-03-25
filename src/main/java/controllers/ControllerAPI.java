@@ -20,7 +20,7 @@ public class ControllerAPI {
 
     public void consumeAPI() {
         try {
-            URL url = new URL("https://thesimpsonsquoteapi.glitch.me/quotes?count=20");
+            URL url = new URL("https://thesimpsonsquoteapi.glitch.me/quotes?count=10");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
             connection.connect();
