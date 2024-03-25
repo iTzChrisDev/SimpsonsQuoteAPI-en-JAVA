@@ -1,7 +1,4 @@
 package controllers;
-/* La dependencia de JSON es la siguiente:
-https://mvnrepository.com/artifact/org.json/json/20220320 
-Enlace directo para obtenerlo...*/
 
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -23,7 +20,7 @@ public class ControllerAPI {
 
     public void consumeAPI() {
         try {
-            URL url = new URL("https://thesimpsonsquoteapi.glitch.me/quotes?count=50");
+            URL url = new URL("https://thesimpsonsquoteapi.glitch.me/quotes?count=20");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
             connection.connect();
